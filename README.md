@@ -6,4 +6,4 @@
 
 ## Grabaciones
 ### S01 - Introducción al diseño responsivo
-[![YouTube Video](https://img.youtube.com/vi//0.jpg)](https://www.youtube.com/watch?v=)
+[![YouTube Video](https://img.youtube.com/vi/CsaFWgCOlk0/0.jpg)](https://www.youtube.com/watch?v=CsaFWgCOlk0)
