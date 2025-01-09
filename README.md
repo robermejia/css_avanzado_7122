@@ -5,5 +5,5 @@
 </center>
 
 ## Grabaciones
-### S01 - Introducción al diseño responsivo
+### S01 - Introducción al diseño responsivo - flexbox
 [![YouTube Video](https://img.youtube.com/vi/CsaFWgCOlk0/0.jpg)](https://www.youtube.com/watch?v=CsaFWgCOlk0)
