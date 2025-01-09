@@ -1,0 +1,27 @@
+.contenedor-centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh;
+}
+
+.item-flex1{
+    width: 15%;
+    background-color: antiquewhite; 
+}
+.item-flex2{
+    width: 35%;
+    background-color: aquamarine;
+}
+.item-flex3{
+    width: 45%;
+    background-color: aqua;
+}
+.item-flex4{
+    width: 55%;
+    background-color: blue;
+}
+.item-flex5{
+    width: 65%;
+    background-color: brown;
+}
