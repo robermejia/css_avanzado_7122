@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contenedor{
+    padding: 20px;
+    background-color: orangered;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.objeto{
+    border-radius: 5px;
+    margin: 5px;
+    background: linear-gradient(148deg,#7c8ddd 30%,#0563df 70%) ;
+    color: rgb(231, 231, 231);
+    padding: 12px 24px;
+    
+    font-weight: 900;
+}
