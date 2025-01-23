@@ -1,0 +1,24 @@
+body {
+  background-color: #0493cc;
+  width: 80%;
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+header {
+  background-color: #cc5e04;
+  width: 80%;
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+section {
+  background-color: #3dcc04;
+  width: 80%;
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+footer {
+  background-color: #922433;
+  width: 80%;
+  padding: 10px 20px;
+  margin: 10px auto;
+}

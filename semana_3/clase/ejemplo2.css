@@ -1,0 +1,69 @@
+body {
+  background-color: orange;
+  color: blue;
+  font-family: Aptos;
+}
+header {
+  color: red;
+}
+section {
+  color: blue;
+}
+footer {
+  color: green;
+}
+h1 {
+  background-color: yellow;
+  color: red;
+}
+h2 {
+  color: red;
+}
+h3 {
+  font-family: Arial;
+}
+.menu ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+}
+.menu ul li {
+  border: 10px solid skyblue;
+  background-color: yellow;
+  padding: 10px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: magenta;
+}
+.mix_estilo1 {
+  border: 10px solid green;
+  float: left;
+  background-color: pink;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  width: 20%;
+}
+.panel {
+  border: 10px solid green;
+  float: left;
+  background-color: pink;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  width: 20%;
+  font-family: fantasy;
+  color: red;
+}
+.contenido {
+  border: 10px solid green;
+  float: left;
+  background-color: pink;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  width: 20%;
+  font-family: Aptos;
+  color: blue;
+}

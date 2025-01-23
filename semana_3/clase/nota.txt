@@ -1,0 +1,5 @@
+- Comando npm para instalar less: 
+    npm install -g less
+
+- Comando para convertir un archivo less a css
+    lessc nombreorigen.less nombredestino.css

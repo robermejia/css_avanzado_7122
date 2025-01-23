@@ -1,0 +1,27 @@
+// Variables less
+@primary-color:#0493cc;
+@secundary-color:#cc5e04;
+@tertiary-color:#3dcc04;
+
+//Mixins
+.container-box(){
+    width: 80%;
+    padding: 10px 20px;
+    margin: 10px auto;
+}
+body{
+    background-color:@primary-color;
+    .container-box;
+}
+header{
+    background-color:@secundary-color;
+    .container-box;
+}
+section{
+    background-color:@tertiary-color;
+    .container-box;
+}
+footer{
+    background-color: rgb(146, 36, 51);
+    .container-box;
+}
