@@ -6,4 +6,6 @@
 
 ## Grabaciones
 ### S01 - Introducción al diseño responsivo - flexbox
-[![YouTube Video](https://img.youtube.com/vi/CsaFWgCOlk0/0.jpg)](https://www.youtube.com/watch?v=CsaFWgCOlk0)
+[![YouTube Video](https://img.youtube.com/vi/CsaFWgCOlk0/1.jpg)](https://www.youtube.com/watch?v=CsaFWgCOlk0)
+### S02 - GRID / PC1
+[![YouTube Video](https://img.youtube.com/vi/WVav2qB3zxY/1.jpg)](https://www.youtube.com/watch?v=WVav2qB3zxY)
