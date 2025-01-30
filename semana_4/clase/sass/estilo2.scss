@@ -1,0 +1,41 @@
+$fondo: yellow;
+$color: green;
+$tipo: 'Tahoma';
+body{
+    background-color: $fondo;
+}
+
+h1{
+    color: $color;
+}
+
+p{
+    color: $color;
+    font-family: $tipo;
+}
+
+.estilo_aninado{
+    h2{
+        color: $color;
+        font-family: $tipo;
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 22px;
+    }
+}
+
+@mixin fn_formato($fondo:purple){
+    background-color: $fondo;
+    border: 5px solid blue;
+    box-shadow: 1px 1px 5px gray;
+    color: $color;
+    margin: 5px;
+}
+
+.estilo1{
+    @include fn_formato($fondo: red)
+}
+.estilo2{
+    @include fn_formato($fondo: pink)
+}

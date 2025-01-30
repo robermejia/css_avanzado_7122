@@ -1,0 +1,74 @@
+$primary-color: #8B7355;
+$text-color: #666;
+$card-spacing: 1rem;
+$image-size: 60px;
+$font-family: 'Arial',
+sans-serif;
+
+
+@mixin flex-row {
+    display: flex;
+    align-items: center;
+}
+
+@mixin card-base {
+    flex: 1;
+    padding: 1rem 0rem;
+    margin: $card-spacing;
+}
+
+@mixin profile-image {
+    width: $image-size;
+    height: $image-size;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+
+.profiles-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 1rem;
+
+    .profile-card {
+        @include card-base;
+        @include flex-row;
+        width: calc(33.333% - 2rem);
+
+        .image-container {
+            flex-shrink: 0;
+
+            img {
+                @include profile-image;
+            }
+        }
+
+        .content {
+            flex-grow: 1;
+
+            .name {
+                color: $primary-color;
+                font-weight: bold;
+                font-size: 1rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .quote {
+                width: 200px;
+                color: $text-color;
+                font-size: 1.2rem;
+                line-height: 1.4;
+                margin: 0;
+
+                &::before {
+                    content: '"';
+                }
+
+                &::after {
+                    content: '"';
+                }
+            }
+        }
+    }
+}

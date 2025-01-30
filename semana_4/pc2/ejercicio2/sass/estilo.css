@@ -1,0 +1,47 @@
+.profiles-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 1rem;
+}
+.profiles-container .profile-card {
+  flex: 1;
+  padding: 1rem 0rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  width: calc(33.333% - 2rem);
+}
+.profiles-container .profile-card .image-container {
+  flex-shrink: 0;
+}
+.profiles-container .profile-card .image-container img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.profiles-container .profile-card .content {
+  flex-grow: 1;
+}
+.profiles-container .profile-card .content .name {
+  color: #8B7355;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.profiles-container .profile-card .content .quote {
+  width: 200px;
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: 0;
+}
+.profiles-container .profile-card .content .quote::before {
+  content: '"';
+}
+.profiles-container .profile-card .content .quote::after {
+  content: '"';
+}
+
+/*# sourceMappingURL=estilo.css.map */

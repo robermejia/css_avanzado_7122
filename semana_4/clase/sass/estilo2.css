@@ -1,0 +1,39 @@
+body {
+  background-color: yellow;
+}
+
+h1 {
+  color: green;
+}
+
+p {
+  color: green;
+  font-family: "Tahoma";
+}
+
+.estilo_aninado h2 {
+  color: green;
+  font-family: "Tahoma";
+}
+.estilo_aninado p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+}
+
+.estilo1 {
+  background-color: red;
+  border: 5px solid blue;
+  box-shadow: 1px 1px 5px gray;
+  color: green;
+  margin: 5px;
+}
+
+.estilo2 {
+  background-color: pink;
+  border: 5px solid blue;
+  box-shadow: 1px 1px 5px gray;
+  color: green;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=estilo2.css.map */
