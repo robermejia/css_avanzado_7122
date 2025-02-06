@@ -1,0 +1,39 @@
+.contenedor{
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.objeto{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    color: green;
+    font-size: 20px;
+}
+
+@keyframes deslizar{
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(600%);
+    }
+}
+.deslizar{
+    position: absolute;
+    animation: deslizar 4s infinite linear;
+    
+}
+@keyframes rotacion {
+    0%{
+        transform: rotate(0);    
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.rotacion{
+    animation: rotacion 4s infinite linear;
+}
