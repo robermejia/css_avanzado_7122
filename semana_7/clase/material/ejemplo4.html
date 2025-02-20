@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 1 con Material Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="material.min.css">
+    <script src="material.min.js"></script>
+</head>
+<body>
+    <!--URL DE DESCARGA IMPORTANTE
+    https://getmdl.io/started/
+    -->
+    <header class="mdl-color--orange mdl-layout__header-row">
+        <div class="mdl-layout__header-row">
+            <h4>Empresa ABC</h4>
+        </div>
+        <div class="mdl-layout__header-row">
+            <h4>Somos los mejores</h4>
+        </div>
+        <div class="mdl-layout__tab-bar mdl-color--blue">
+            <a class="mdl-layout__tab" href="">Nosotros</a>
+            <a class="mdl-layout__tab" href="">Catálogo</a>
+            <a class="mdl-layout__tab" href="">Servicios</a>
+            <a class="mdl-layout__tab" href="">Clientes</a>
+        </div>
+    </header>
+
+    <section class="mdl-banner mdl-grid mdl-grid--no--spacing mdl-shadow--8dp">
+        <div class="mdl-card mdl-cell mdl-cell--12-col">
+            <div class="mdl-color--pink">
+                <h5>Somos una empresa de prestigio</h5>
+                bla bla bla..
+            </div>
+            <div class="mdl-color--yellow mdl mdl-card__actions">
+                <a class="mdl-button" href="">Ejemplo1</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mdl-banner mdl-grid mdl-grid--no-spacing">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+                <div class="mdl-color--red mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title--text">Clientes</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <ul>
+                            <li>Cliente A</li><li>Cliente B</li>
+                            <li>Cliente C</li><li>Cliente D</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+                <div class="mdl-color--purple mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title--text">Clientes</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <ul>
+                            <li>Cliente A</li><li>Cliente B</li>
+                            <li>Cliente C</li><li>Cliente D</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+                <div class="mdl-color--blue mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title--text">Clientes</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <ul>
+                            <li>Cliente A</li><li>Cliente B</li>
+                            <li>Cliente C</li><li>Cliente D</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="mdl-grid mdl-grid--no-spacing">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col">
+                <form action="">
+                    <p>Contáctenos</p>
+                    <div class="mdl-textfield mdl-js-textfield">
+                        <input class="mdl-textfield__input" type="email" id="email" required>
+                        <label class="mdl-textfield__label" for="">micorreo@gmail.com</label>
+                    </div>
+                    <button class="mdl-button mdl-js-button mdl-color--blue">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mdl-mega-footer mdl-color--primary-dark">
+        <div class="mdl-mega-footer--bottom-section">
+            Derechos reservados - Empresa XYZ
+            <script type="text/javascript">
+                x=new Date()
+                d=x.getDate()
+                m=x.getMonth()+1
+                a=x.getFullYear()
+                document.write(d+"/"+m+"/"+a)
+            </script>
+            Desarrollado por <a href="">Empresa XYZ</a>
+
+        </div>
+
+    </footer>
+</body>
+</html>
