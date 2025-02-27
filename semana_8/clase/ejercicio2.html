@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <h4>Regístrese</h4>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <form action="proceso.php">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input type="text" id="apellidos" class="validate">
+                                <label for="apellidos">Apellidos</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input type="text" id="nombres" class="validate">
+                                <label for="nombres">Nombres</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input type="email" id="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="comentarios" class="materialize-textarea" required></textarea>
+                                <label for="comentarios">Comentarios</label>
+                            </div>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="submit">
+                            <i class="material-icons right">send</i>Aceptar
+                        </button>
+                    </form>
+                </div>
+                <div class="col s12 m6">
+                    <h6 class="blue-text text-darken-2">Empresa ABC</h6>
+                    <p><i class="material-icons left green-text text-darken-2">android</i>
+                    Lima, Los Olivos</p>
+                    <h6 class="blue-text text-darken-2">Contacto</h6>
+                    <p><i class="material-icons left red-text text-darken-2">call</i>
+                    +51 999-999-999</p>
+                    <h6 class="blue-text text-darken-2">URL</h6>
+                    <p><i class="material-icons left orange-text text-darken-2">open_in_browser</i>
+                    www.google.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
