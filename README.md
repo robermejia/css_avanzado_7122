@@ -17,3 +17,7 @@
 [![YouTube Video](https://img.youtube.com/vi/wdMReWbe9mU/1.jpg)](https://www.youtube.com/watch?v=wdMReWbe9mU)
 ### S06 - PC 3
 [![YouTube Video](https://img.youtube.com/vi/Kr8d-OFcytY/1.jpg)](https://www.youtube.com/watch?v=Kr8d-OFcytY)
+### S07 - tailwind css, material design
+[![YouTube Video](https://img.youtube.com/vi/qj2nrPuuIeE/1.jpg)](https://www.youtube.com/watch?v=qj2nrPuuIeE)
+### S08 - Materialize
+[![YouTube Video](https://img.youtube.com/vi/8n1vHw6kCp4/1.jpg)](https://www.youtube.com/watch?v=8n1vHw6kCp4)
